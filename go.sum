@@ -1,0 +1,12 @@
+github.com/SirDataFR/iabtcfv2 v1.1.3 h1:ScYkinysJkBxbuYX3OMl9tu/XVAUc9NeUG4cU8gP+m8=
+github.com/SirDataFR/iabtcfv2 v1.1.3/go.mod h1:wBEfrSz6AcFCRtxRSGPj8XB4Ut4ntjkM32zV4V/byTk=
+github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/google/go-cmp v0.4.0/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/rupertchen/go-bits v0.2.0 h1:B5+B70H4vWgwMppvo3wiYtwgN1j9m2nD9DJnnMqGcbQ=
+github.com/rupertchen/go-bits v0.2.0/go.mod h1:V1n1fOC+mPsmLRcRQ5Esgi7CMdsPNeWNz4nVGm+DMJc=
+github.com/travelaudience/go-iabtcf v0.2.0 h1:5jRocy6mmiL073ply03dmebiNZRNOTjKrYJKNYXjLj0=
+github.com/travelaudience/go-iabtcf v0.2.0/go.mod h1:w9ioGpmThL0dsVazV/t0K+QtXPjEAeyvaR3NNkTHUqM=
+golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
