@@ -3,8 +3,10 @@ package gpp
 import (
 	"fmt"
 	"github.com/DncDev/go-iabgpp/base64"
+	"github.com/DncDev/go-iabgpp/field"
 	"github.com/DncDev/go-iabgpp/privacy"
 	iabtcf "github.com/SirDataFR/iabtcfv2"
+
 	"strconv"
 	"strings"
 )
@@ -45,17 +47,7 @@ type Section struct {
 type Header struct {
 	Type     int64
 	Version  int64
-	Sections FibonacciRange
-}
-
-type FibonacciRange struct {
-	Amount int64
-	Items  []FibonacciRangeItem
-}
-
-type FibonacciRangeItem struct {
-	Type  bool
-	Start int64
+	Sections field.FibonacciRange
 }
 
 func (h *Header) Encode() {
@@ -134,7 +126,7 @@ func (h *Header) Decode(header string) {
 
 		sections = strings.TrimRight(sections, "0")
 
-		ranges, err := DecodeFibonacciRange(sections)
+		ranges, err := field.DecodeFibonacciRange(sections)
 
 		if err != nil {
 		}
