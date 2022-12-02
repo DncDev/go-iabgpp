@@ -29,3 +29,8 @@ content,err := gpp.Decode("BDACNY~CPXxRfAPXxRfAAfKABENB-CgAAAAAAAAAAYgAAAAAAAA~1
     }
 
 ```
+
+## Todo
+
+* The usnat section decoder is unfinished
+* Tests added
