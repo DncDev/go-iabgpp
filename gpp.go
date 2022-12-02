@@ -2,9 +2,8 @@ package gpp
 
 import (
 	"errors"
-	"github.com/DncDev/iabgpp/privacy"
+	"github.com/DncDev/go-iabgpp/privacy"
 	iabtcf "github.com/SirDataFR/iabtcfv2"
-	"github.com/davecgh/go-spew/spew"
 	"strings"
 )
 
@@ -12,19 +11,21 @@ import (
 DBABMA~CPXxRfAPXxRfAAfKABENB-CgAAAAAAAAAAYgAAAAAAAA
 Add other privacy sub string handling here ie uspv1 etc
 */
-func Decode(spec string) *Block,error {
+func Decode(spec string) (*Block, error) {
 
 	parts := strings.Split(spec, "~")
 
+	blk := &Block{}
+
 	if len(parts) < 2 {
 
-		return errors.New("Bad Data")
+		return blk, errors.New("Bad Data")
 
 	}
 
 	header := DecodeHeader(parts[0])
 
-	blk := &Block{Header: header}
+	blk.Header = header
 
 	sections := parts[1:] //the rest of the items after the header
 
@@ -75,7 +76,6 @@ func Decode(spec string) *Block,error {
 
 	}
 
-
-	return blk,nil
+	return blk, nil
 
 }

@@ -2,7 +2,7 @@ package privacy
 
 import (
 	"fmt"
-	"github.com/DncDev/iabgpp/base64"
+	"github.com/DncDev/go-iabgpp/base64"
 	"strconv"
 )
 

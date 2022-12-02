@@ -2,8 +2,8 @@ package gpp
 
 import (
 	"fmt"
-	"github.com/DncDev/iabgpp/base64"
-	"github.com/DncDev/iabgpp/privacy"
+	"github.com/DncDev/go-iabgpp/base64"
+	"github.com/DncDev/go-iabgpp/privacy"
 	iabtcf "github.com/SirDataFR/iabtcfv2"
 	"strconv"
 	"strings"

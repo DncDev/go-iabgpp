@@ -1,7 +1,7 @@
 package gpp
 
 import (
-	"github.com/DncDev/iabgpp/base64"
+	"github.com/DncDev/go-iabgpp/base64"
 )
 
 func DecodeHeader(spec string) Header {

@@ -1,4 +1,4 @@
-module github.com/DncDev/iabgpp
+module github.com/DncDev/go-iabgpp
 
 go 1.18
 
