@@ -8,8 +8,7 @@ This should still be considered alpha software, the header parsing needs more wo
 
 ### Example
 
-```
- 	content,err := gpp.Decode("BDACNY~CPXxRfAPXxRfAAfKABENB-CgAAAAAAAAAAYgAAAAAAAA~1YNN")
+```content,err := gpp.Decode("BDACNY~CPXxRfAPXxRfAAfKABENB-CgAAAAAAAAAAYgAAAAAAAA~1YNN")
     
     
     if(err==nil){ 
